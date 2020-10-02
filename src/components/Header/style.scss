@@ -44,14 +44,23 @@
 
       &:focus {
         outline: none;
-        // width: 100%;
       }
+    }
+
+    @keyframes animatePen {
+      0%   {transform: rotate(15deg);}
+      50%  {transform: rotate(-15deg);}
+      100% {transform: rotate(0deg);}
     }
     
     img {
       padding-left: .25em;
       color: #fff !important;
       cursor: pointer;
+
+      &:hover {
+        animation: animatePen .5s;
+      }
     }
   }
 

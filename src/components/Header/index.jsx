@@ -1,14 +1,13 @@
 import React, { useState, createRef, useEffect } from 'react'
 
-import Logo from '../../assets/logo.svg'
-import PenIcon from '../../assets/pen.svg'
-import DownArrowIcon from '../../assets/down-arrow.svg'
-import CloudIcon from '../../assets/cloud.svg'
-import SettingsIcon from '../../assets/settings.svg'
-import NerdImg from '../../assets/nerd.svg'
 import ViewChangeIcon from '../../assets/view-change.svg'
+import DownArrowIcon from '../../assets/down-arrow.svg'
+import SettingsIcon from '../../assets/settings.svg'
 import PinnedIcon from '../../assets/pinned.svg'
-
+import CloudIcon from '../../assets/cloud.svg'
+import NerdImg from '../../assets/nerd.svg'
+import PenIcon from '../../assets/pen.svg'
+import Logo from '../../assets/logo.svg'
 import './style.scss'
 
 const Header = () => {
