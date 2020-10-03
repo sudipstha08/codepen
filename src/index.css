@@ -65,4 +65,5 @@ body {
 
 .code-mirror-wrapper {
   flex-grow: 1;
+  box-shadow: 0 2px 5px hsl(225, 6%, 16%);
 }

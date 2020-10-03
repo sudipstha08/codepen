@@ -23,7 +23,7 @@ const  Editor = ({ displayName, language, value, onChange }) => {
   return (
     <div className={`editor ${open ? '' : 'editor--collapsed'}`}>
       <div className="editor__title">
-        <div style={{ color: '#39c9a7', display: 'flex', fontWeight:'600' }}>
+        <div style={{ color: '#aaaebc', display: 'flex', fontWeight:'700', fontSize: 18 }}>
           <img src={SettingsIcon} alt="settings" height="18" style={{ paddingRight: '.25em', cursor: 'pointer' }} />
           {displayName}
         </div>
