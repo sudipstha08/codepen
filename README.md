@@ -19,7 +19,7 @@
 ### Live Site
 <a href="https://sudipstha08.github.io/codepen/" rel="codepen">![codepen-clone](https://github.com/sudipstha08/codepen/blob/master/src/assets/pen.png?raw=true)</a>
 
-#### Open to Pull Request. Happy coding :v:
+#### :arrow_right: Open to Pull Request. Happy coding :v:
 
 ### References
 1. https://codemirror.net/
