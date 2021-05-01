@@ -2,7 +2,7 @@
   "name": "codepen-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.io/sudipstha08/codepen",
+  "homepage": "/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
@@ -16,6 +16,7 @@
     "react": "^16.13.1",
     "react-codemirror2": "^7.2.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {

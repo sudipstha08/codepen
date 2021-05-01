@@ -53,7 +53,7 @@ const Header = () => {
             <img src={PenIcon} alt="pen" onClick={handlePenIconClick} />
           </div>
           <div className="header__username">
-            <p>Dev Xplore</p>
+            <p>Codepen clone</p>
           </div>
         </div>
       </div>
@@ -83,4 +83,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export { Header}

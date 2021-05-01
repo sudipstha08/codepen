@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import Editor from './Editor'
-import useLocalStorage from './useLocalStorage'
-import Header from './Header'
+import { Editor } from '../Editor'
+import { useLocalStorage } from '../UseLocalStorage'
+import { Header } from '../Header'
 
-const App = () => {
+const Pen = () => {
   const [html, setHtml] = useLocalStorage('html', '')
   const [css, setCss] = useLocalStorage('css', '')
   const [js, setJs] = useLocalStorage('js', '')
@@ -65,4 +65,4 @@ const App = () => {
   );
 }
 
-export default App;
+export {Pen};

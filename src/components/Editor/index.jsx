@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-
 import { Controlled as ControlledEditor } from 'react-codemirror2';
 import 'codemirror/lib/codemirror.css'
 import 'codemirror/theme/material.css'
@@ -11,7 +10,7 @@ import 'codemirror/addon/edit/closebrackets.js'
 import 'codemirror/addon/edit/closetag.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCompressAlt, faExpandAlt } from '@fortawesome/free-solid-svg-icons'
-import SettingsIcon from '../assets/settings.svg'
+import SettingsIcon from '../../assets/settings.svg'
 
 const  Editor = ({ displayName, language, value, onChange }) => {
   const [open, setOpen] = useState(true)
@@ -57,4 +56,4 @@ Editor.propTypes={
   value: PropTypes.string,
 }
 
-export default Editor
+export { Editor }
