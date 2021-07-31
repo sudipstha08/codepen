@@ -1,4 +1,4 @@
-name: codepen CD
+name: codepen_CD
 
 on:
   push:
