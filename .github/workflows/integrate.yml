@@ -1,0 +1,24 @@
+name: codepen CI
+
+on: 
+  pull_request:
+    branches: [ main ]
+
+jobs: 
+  test_pull_request: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Clone repository
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with: 
+          node-version: 14
+      - name: Install dependencies
+        run: npm ci
+      # - name: Run the tests 
+      #   run: npm test
+      - name: build
+        run: npm run build
+        env: 
+          CI: false
