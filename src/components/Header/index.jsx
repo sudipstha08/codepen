@@ -11,7 +11,7 @@ import Logo from '../../assets/logo.svg'
 import './style.scss'
 
 const Header = () => {
-  const [penTitle, setPenTitle] = useState('Untitled')
+  const [penTitle, setPenTitle] = useState('Untitled Title')
   const [isTitleDisabled, setIsTitleDisabled] = useState(true)
   const titleRef = createRef()
 
