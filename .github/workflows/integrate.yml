@@ -1,4 +1,4 @@
-name: codepen CI
+name: codepen_ci
 
 on: 
   pull_request:

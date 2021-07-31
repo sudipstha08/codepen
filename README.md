@@ -17,7 +17,8 @@
 
 
 ## Workflow status
-- ![CI/CD](https://github.com/sudipstha08/codepen/workflows/codepen_CD/badge.svg)
+  ![CI/CD](https://github.com/sudipstha08/codepen/workflows/codepen_cd/badge.svg)
+  ![CI/CD](https://github.com/sudipstha08/codepen/workflows/codepen_ci/badge.svg)
 ## Live Site
 <a href="https://sudipstha08.github.io/codepen/" rel="codepen">![codepen-clone](https://github.com/sudipstha08/codepen/blob/master/src/assets/pen.png?raw=true)</a>
 
