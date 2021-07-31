@@ -1,5 +1,9 @@
 ## Codepen Clone
 
+![CI/CD](https://github.com/sudipstha08/codepen/workflows/codepen_cd/badge.svg)
+![CI/CD](https://github.com/sudipstha08/codepen/workflows/codepen_ci/badge.svg)
+![License](https://img.shields.io/github/license/dyarleniber/react-workflow-gh-actions)
+
 ## Commands
   | Commands     |            Desp         |
   |--------------|-------------------------|
@@ -16,11 +20,7 @@
 | `scss`     | css preprocessor          |
 
 
-## Workflow status
-  ![CI/CD](https://github.com/sudipstha08/codepen/workflows/codepen_cd/badge.svg)
-  ![CI/CD](https://github.com/sudipstha08/codepen/workflows/codepen_ci/badge.svg)
-  ![License](https://img.shields.io/github/license/dyarleniber/react-workflow-gh-actions)
-## Live Site
+ ## Live Site
 <a href="https://sudipstha08.github.io/codepen/" rel="codepen">![codepen-clone](https://github.com/sudipstha08/codepen/blob/master/src/assets/pen.png?raw=true)</a>
 
 ## References
