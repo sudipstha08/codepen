@@ -4,8 +4,8 @@ import { useLocalStorage } from '../UseLocalStorage'
 import { Header } from '../Header'
 
 const Pen = () => {
-  const [html, setHtml] = useLocalStorage('html', '')
-  const [css, setCss] = useLocalStorage('css', '')
+  const [html, setHtml] = useLocalStorage('html', '<p>Hello world</p>')
+  const [css, setCss] = useLocalStorage('css', 'p {color: blue;}')
   const [js, setJs] = useLocalStorage('js', '')
   const [srcDoc, setSrcDoc] = useState('')
 
